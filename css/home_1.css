@@ -370,7 +370,7 @@ video {
 }
 
 .featured {
-  background-image: url(../img/pexels-daniel-xavier-1275311.jpg);
+  background-image: url(../img//pexels-andrea-piacquadio-775091.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -470,6 +470,12 @@ a.box_news {
     padding-left: 0;
   }
 }
+@media (max-width: 575px) {
+  .featured {
+    background-size: contain;
+  }
+}
+
 a.box_news figure {
   width: 200px;
   height: 150px;
