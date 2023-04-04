@@ -370,16 +370,12 @@ video {
 }
 
 .featured {
-  position: relative;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../img/pexels-daniel-xavier-1275311.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   height: 400px;
-  color: #fff;
-  font-size: 18px;
-  font-size: 1.125rem;
-  overflow: hidden;
+  width: 100%;
 }
 .featured h3,
 .featured p,
