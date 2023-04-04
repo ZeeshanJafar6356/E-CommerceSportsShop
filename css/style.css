@@ -4491,7 +4491,7 @@ body.modal-open .mm-slideout {
 @media (max-width: 767px) {
   #carousel-home .owl-carousel .owl-slide,
   #carousel-home-2 .owl-carousel .owl-slide {
-    height: 215px;
+    height: 180px;
     width: 115%;
   }
 }
