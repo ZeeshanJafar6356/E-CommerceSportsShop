@@ -5975,7 +5975,8 @@ ul.list_ok li:last-child {
 @media (max-width: 575px) {
   .margin_60_35 {
     padding-top: 30px;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
+    padding-bottom: 15rem;
   }
 }
 
