@@ -2,7 +2,7 @@
 /* PRODUCT PAGE */
 /*============================================================================================*/
 .countdown_inner {
-  background: #F33;
+  background: #f33;
   color: #fff;
   margin-bottom: 30px;
   padding: 5px;
@@ -22,11 +22,11 @@
   border-style: solid solid solid none;
   border-width: 15px 15px 15px 0;
   bottom: -26px;
-  content: "";
+  content: '';
   left: 0;
   position: absolute;
   width: 15px;
-  border-color: #F33 transparent transparent;
+  border-color: #f33 transparent transparent;
 }
 @media (max-width: 991px) {
   .countdown_inner.version_2:before {
@@ -87,19 +87,98 @@
 }
 .all .slider .item-box,
 .all .slider-two .item-box {
-  overflow: hidden;
+  /* overflow: hidden;
   width: 100%;
   height: 450px;
   position: relative;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
+  overflow: hidden;
+  width: 53%;
+  margin: auto;
+  height: 340px;
+  position: relative;
+  background-size: cover;
 }
+
+.all .slider .jacket {
+  /* overflow: hidden;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center center; */
+  overflow: hidden;
+  width: 60%;
+  margin: auto;
+  height: 340px;
+  position: relative;
+  background-size: cover;
+}
+.all .slider .jacket2 {
+  /* overflow: hidden;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center center; */
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  height: 340px;
+  position: relative;
+  background-size: cover;
+}
+.all .slider .vneck {
+  /* overflow: hidden;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center center; */
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  height: 340px;
+  position: relative;
+  background-size: cover;
+}
+.all .slider .vneck2 {
+  /* overflow: hidden;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background-size: cover;
+  background-position: center center; */
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  height: 340px;
+  position: relative;
+  background-size: cover;
+}
+
 @media (max-width: 767px) {
   .all .slider .item-box,
   .all .slider-two .item-box {
-    height: 350px;
+    /* height: 350px; */
+    width: 86%;
   }
 }
+
+@media (max-width: 767px) {
+  .all .slider .jacket {
+    /* height: 350px; */
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .all .slider .jacket2 {
+    height: 250px;
+    width: 100%;
+  }
+}
+
 .all .slider .left,
 .all .slider .right,
 .all .slider-two .left,
@@ -135,7 +214,7 @@
 .all .slider .left,
 .all .slider-two .left {
   left: -20px;
-  transition: left ease .25s;
+  transition: left ease 0.25s;
 }
 .all .slider .left:hover,
 .all .slider-two .left:hover {
@@ -155,7 +234,7 @@
 .all .slider .right,
 .all .slider-two .right {
   right: -20px;
-  transition: right ease .25s;
+  transition: right ease 0.25s;
 }
 .all .slider .right:hover,
 .all .slider-two .right:hover {
@@ -176,7 +255,7 @@
   right: 0;
 }
 .all .slider-two .item {
-  transition: all ease .25s;
+  transition: all ease 0.25s;
   height: 100px;
   border: solid 2px #e6ecf2;
   cursor: pointer;
@@ -197,10 +276,11 @@
   top: 20px;
   visibility: hidden;
   opacity: 0;
-  transition: all ease .25s;
+  transition: all ease 0.25s;
   width: 40px;
   height: 99px;
-  background: no-repeat rgba(0, 77, 218, 0.85) url(../img/arrow_right.svg) center center;
+  background: no-repeat rgba(0, 77, 218, 0.85) url(../img/arrow_right.svg)
+    center center;
 }
 .all .slider-two .left-t:hover,
 .all .slider-two .right-t:hover {
@@ -316,7 +396,7 @@
 }
 .prod_options .colors ul li a.color.active:before {
   font-family: 'themify';
-  content: "\e64c";
+  content: '\e64c';
   color: #fff;
   font-size: 13px;
   font-size: 0.8125rem;
@@ -499,7 +579,8 @@
   }
 }
 @media (max-width: 767px) and (max-width: 767px) {
-  .product_actions ul li:first-child i, .product_actions ul li:nth-child(2) i {
+  .product_actions ul li:first-child i,
+  .product_actions ul li:nth-child(2) i {
     font-size: 21px;
     font-size: 1.3125rem;
   }
@@ -570,6 +651,12 @@
     display: flex;
   }
 
+  @media (min-width: 768px) {
+    .grid_item figure .cheer {
+      height: 10rem;
+    }
+  }
+
   .tab_content_wrapper .card {
     border: none;
   }
@@ -603,10 +690,10 @@
     float: right;
   }
   .tab_content_wrapper .card .card-header a.collapsed:after {
-    content: "\e61a";
+    content: '\e61a';
   }
   .tab_content_wrapper .card .card-header a:after {
-    content: "\e622";
+    content: '\e622';
   }
 }
 .review_content {
