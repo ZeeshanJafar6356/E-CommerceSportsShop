@@ -4464,7 +4464,7 @@ body.modal-open .mm-slideout {
 }
 #carousel-home .cover,
 #carousel-home-2 .cover {
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -4484,15 +4484,16 @@ body.modal-open .mm-slideout {
 #carousel-home-2 .owl-carousel .owl-slide {
   /* height: 500px; */
   /* height: 760px; */
-  height: 900px;
-  width: 110%;
+  height: 912px;
+  /* width: 110%; */
   position: relative;
 }
 @media (max-width: 767px) {
   #carousel-home .owl-carousel .owl-slide,
   #carousel-home-2 .owl-carousel .owl-slide {
     height: 180px;
-    width: 115%;
+    width: 110%;
+    background-size: contain;
   }
 }
 #carousel-home .owl-carousel .owl-slide-animated,
